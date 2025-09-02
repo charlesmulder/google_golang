@@ -1,8 +1,17 @@
+# Exclude hidden files
 .bash_history
 .cache/
 .config/
+
+# Exclude binary files
 src/*/*
 !src/*/*.go
 !src/*/*.mod
 !src/*/*.sum
 !src/*/*.md
+
+# Exclude Neovim tmp files
+*.swp
+*.swo
+*.swn
+*~
