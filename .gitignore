@@ -3,6 +3,9 @@
 .cache/
 .config/
 
+# Exclude code review src
+src/reviews
+
 # Exclude binary files
 src/*/*
 !src/*/*.go
