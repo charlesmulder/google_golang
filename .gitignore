@@ -1,3 +1,8 @@
 .bash_history
 .cache/
 .config/
+src/*/*
+!src/*/*.go
+!src/*/*.mod
+!src/*/*.sum
+!src/*/*.md
